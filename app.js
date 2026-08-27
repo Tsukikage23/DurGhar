@@ -8,7 +8,7 @@ main()
     .then(() => {
         console.log("Connected to db");
     })
-    .catch(() => {
+    .catch((error) => {
         console.log(error);
     });
 
